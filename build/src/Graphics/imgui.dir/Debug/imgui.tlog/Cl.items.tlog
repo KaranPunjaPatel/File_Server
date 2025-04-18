@@ -1,0 +1,7 @@
+C:\sdk\imgui-master\imgui.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui.obj
+C:\sdk\imgui-master\imgui_demo.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui_demo.obj
+C:\sdk\imgui-master\imgui_draw.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui_draw.obj
+C:\sdk\imgui-master\imgui_tables.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui_tables.obj
+C:\sdk\imgui-master\imgui_widgets.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui_widgets.obj
+C:\sdk\imgui-master\backends\imgui_impl_glfw.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui_impl_glfw.obj
+C:\sdk\imgui-master\backends\imgui_impl_opengl3.cpp;C:\code\file_server\build\src\Graphics\imgui.dir\Debug\imgui_impl_opengl3.obj

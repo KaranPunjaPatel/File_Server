@@ -1,0 +1,9 @@
+C:/code/file_server/build/CMakeFiles/ALL_BUILD.dir
+C:/code/file_server/build/CMakeFiles/ZERO_CHECK.dir
+C:/code/file_server/build/src/Security/CMakeFiles/Security.dir
+C:/code/file_server/build/src/Network/CMakeFiles/Network.dir
+C:/code/file_server/build/src/Graphics/CMakeFiles/Graphics.dir
+C:/code/file_server/build/src/Graphics/CMakeFiles/glad.dir
+C:/code/file_server/build/src/Graphics/CMakeFiles/imgui.dir
+C:/code/file_server/build/src/Client/CMakeFiles/Client.dir
+C:/code/file_server/build/src/Server/CMakeFiles/Server.dir

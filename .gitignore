@@ -73,6 +73,9 @@ CMakeUserPresets.json
 .history
 .ionide
 
+
+external/
+
 build/
 **/*.key
 **/*.crt

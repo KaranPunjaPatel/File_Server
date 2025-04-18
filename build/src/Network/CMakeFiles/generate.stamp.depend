@@ -1,5 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/CPPCompiler/mingw64/share/cmake-3.29/Modules/FindBoost.cmake
-C:/CPPCompiler/mingw64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
-C:/CPPCompiler/mingw64/share/cmake-3.29/Modules/FindPackageMessage.cmake
-C:/code/file_server/src/Network/CMakeLists.txt

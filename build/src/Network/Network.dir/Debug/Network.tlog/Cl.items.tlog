@@ -1,6 +1,0 @@
-C:\code\file_server\src\Network\network.cpp;C:\code\file_server\build\src\Network\Network.dir\Debug\network.obj
-C:\code\file_server\src\Network\networkClient.cpp;C:\code\file_server\build\src\Network\Network.dir\Debug\networkClient.obj
-C:\code\file_server\src\Network\networkConnection.cpp;C:\code\file_server\build\src\Network\Network.dir\Debug\networkConnection.obj
-C:\code\file_server\src\Network\networkContext.cpp;C:\code\file_server\build\src\Network\Network.dir\Debug\networkContext.obj
-C:\code\file_server\src\Network\networkDeque.cpp;C:\code\file_server\build\src\Network\Network.dir\Debug\networkDeque.obj
-C:\code\file_server\src\Network\networkServer.cpp;C:\code\file_server\build\src\Network\Network.dir\Debug\networkServer.obj

@@ -77,7 +77,8 @@ CMakeUserPresets.json
 external/
 
 build/
-**/*.key
-**/*.crt
+
+**/*/*.key
+**/*/*.crt
 
 

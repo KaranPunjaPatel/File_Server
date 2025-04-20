@@ -31,14 +31,14 @@ namespace Network {
 			{
 				ctx = std::make_unique<boost::asio::ssl::context>(boost::asio::ssl::context::tlsv13_client);
 
-				ctx->load_verify_file("server.crt");
+				ctx->load_verify_file("C:\\code\\file_server\\src\\Key\\server.crt");
 			}
 			else if (system == ConnectionSystem::SERVER)
 			{
 				ctx = std::make_unique<boost::asio::ssl::context>(boost::asio::ssl::context::tlsv13_server);
 
-				ctx->use_certificate_chain_file("server.crt");
-				ctx->use_private_key_file("server.key", boost::asio::ssl::context::pem);
+				ctx->use_certificate_chain_file("C:\\code\\file_server\\src\\Key\\server.crt");
+				ctx->use_private_key_file("C:\\code\\file_server\\src\\Key\\server.key", boost::asio::ssl::context::pem);
 			}
 			else
 			{

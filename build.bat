@@ -1,25 +1,21 @@
-@REM @echo off
-@REM mkdir build 2>nul
-@REM cd build
-@REM cmake .. -G "MinGW Makefiles"
-@REM cmake --build .
+@echo off
+echo Performing clean build...
+
+:: Clean and prepare build directory
+mkdir build
+cd build
+
+:: Run cmake to configure the project and build it
+cmake .. -G "Visual Studio 17 2022" -A x64
+cmake --build .
+
+:: Go back to the root directory
 @REM cd ..
 
-@REM build\File_Server.exe
-
-
-@echo off
-echo Building project...
-mkdir build 2>nul
-cd build
-cmake .. -G "Visual Studio 17 2022"
-cmake --build .
-cd ..
-
-:: Run one of the executables
+:: Run the ClientApp (uncomment the appropriate line)
 echo Running Client...
-build\Client\Client.exe
+START "Client" .\src\Client\Debug\Client.exe
 
 :: Or, uncomment the next line to run ServerApp instead
 echo Running Server...
-build\Server\Server.exe
+START "Server" .\src\Server\Debug\Server.exe

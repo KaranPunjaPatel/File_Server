@@ -11,12 +11,12 @@ cmake .. -G "Visual Studio 17 2022" -A x64
 cmake --build .
 
 :: Go back to the root directory
-cd ..
+@REM cd ..
 
 :: Run the ClientApp (uncomment the appropriate line)
-echo Running ClientApp...
-.\build\src\Client\Client.exe
+echo Running Client...
+START "Client" .\src\Client\Debug\Client.exe
 
 :: Or, uncomment the next line to run ServerApp instead
-echo Running ServerApp...
-.\build\src\Server\Server.exe
+echo Running Server...
+START "Server" .\src\Server\Debug\Server.exe

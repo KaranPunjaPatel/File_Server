@@ -26,7 +26,7 @@ namespace Security {
     }
 
     bool SessionToken::IsValid() const {
-        return std::time(nullptr) <= expiration;
+        return std::time(nullptr) <= static_cast<int64_t>(expiration);
     }
 
     bool SessionToken::operator==(const SessionToken& other) const {
